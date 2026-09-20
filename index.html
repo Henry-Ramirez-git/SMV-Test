@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="SMV des Gymnasiums Bad Königshofen – Projekte, Arbeitskreise, Termine und Kontakt." />
+  <meta name="theme-color" content="#081a36" />
+  <title>SMV | Gymnasium Bad Königshofen</title>
+  <link rel="stylesheet" href="styless2.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="SMV Gymnasium Bad Königshofen – Startseite">
+        <span class="brand-mark" aria-hidden="true">SMV</span>
+        <span class="brand-copy">
+          <strong>SMV</strong>
+          <small>Gymnasium Bad Königshofen</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Menü öffnen" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Hauptnavigation">
+        <a href="#ueber-uns">Über uns</a>
+        <a href="#projekte">Projekte</a>
+        <a href="#termine">Termine</a>
+        <a href="#aks">AKs</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="ueber-uns">
+      <div class="hero-shape" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal-up">
+          <p class="eyebrow">Schülervertretung · Gymnasium Bad Königshofen</p>
+          <h1>WIR MACHEN<br><span>SCHULE.</span></h1>
+          <p class="hero-lead">
+            Die SMV besteht aus drei Schülersprecher*innen. Wir vertreten die Interessen der
+            Schüler*innen, bringen Anliegen zur Schulleitung und organisieren gemeinsam mit unseren
+            Arbeitskreisen Projekte, Aktionen und Veranstaltungen.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projekte">Projekte entdecken <span aria-hidden="true">→</span></a>
+            <a class="text-link" href="#kontakt">Kontakt aufnehmen</a>
+          </div>
+        </div>
+
+        <div class="hero-side reveal-up">
+          <div class="smv-orbit" aria-label="Drei Schülersprecher*innen bilden die SMV">
+            <div class="orbit-ring orbit-ring-one"></div>
+            <div class="orbit-ring orbit-ring-two"></div>
+            <div class="person person-one"><span>01</span><strong>Schülersprecher*in</strong></div>
+            <div class="person person-two"><span>02</span><strong>Schülersprecher*in</strong></div>
+            <div class="person person-three"><span>03</span><strong>Schülersprecher*in</strong></div>
+            <div class="center-badge">SMV</div>
+          </div>
+          <div class="info-card">
+            <span class="card-kicker">Drei Stimmen.</span>
+            <strong>Ein Team für die Schule.</strong>
+            <p>Wir koordinieren Projekte und AKs und sind die Schnittstelle zwischen Schülerschaft und Schulleitung.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projekte">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Aktuell &amp; in Planung</p>
+            <h2>PROJEKTE DER<br>SMV</h2>
+          </div>
+          <p class="section-intro">
+            Von Wahlen bis Projekttagen: Hier bekommt ihr einen schnellen Überblick über aktuelle
+            Vorhaben. Klickt auf ein Projekt, um mehr zu erfahren.
+          </p>
+        </div>
+
+        <div class="project-feature">
+          <div class="project-visual">
+            <span class="project-number">01</span>
+            <span class="visual-stamp">SMV<br>2026</span>
+            <div class="visual-lines"></div>
+            <div class="visual-word">WAHL</div>
+          </div>
+          <div class="project-content">
+            <p class="eyebrow">Aktuelles Projekt</p>
+            <h3>Wahl der neuen<br>Schülersprecher*innen</h3>
+            <p>
+              Die nächste Schülersprecherwahl steht an. Hier findet ihr später alle wichtigen
+              Informationen zur Kandidatur, zum Ablauf und zum Wahltermin. So wird die Wahl
+              transparent und für alle Schüler*innen leicht zugänglich.
+            </p>
+            <button class="btn btn-primary project-open" type="button" data-project="0">
+              Projekt ansehen <span aria-hidden="true">→</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="project-grid" aria-label="Weitere SMV-Projekte">
+          <button class="project-card" type="button" data-project="1">
+            <span class="card-index">02</span>
+            <span class="card-icon" aria-hidden="true">✦</span>
+            <span class="card-title">Weihnachtsprojekttag</span>
+            <span class="card-text">Gemeinsam kreativ werden, Aktionen planen und den letzten Schultag vor den Ferien gestalten.</span>
+            <span class="card-arrow" aria-hidden="true">↗</span>
+          </button>
+          <button class="project-card" type="button" data-project="2">
+            <span class="card-index">03</span>
+            <span class="card-icon" aria-hidden="true">◎</span>
+            <span class="card-title">Anti-Rassismus-Tag</span>
+            <span class="card-text">Ein Projekttag rund um Respekt, Vielfalt und ein faires Miteinander. Termin folgt.</span>
+            <span class="card-arrow" aria-hidden="true">↗</span>
+          </button>
+          <button class="project-card" type="button" data-project="3">
+            <span class="card-index">04</span>
+            <span class="card-icon" aria-hidden="true">☀</span>
+            <span class="card-title">SMV-Sommerprojekttag</span>
+            <span class="card-text">Sommer, Aktionen und gemeinschaftliche Projekte zum Schuljahresende am 27.07.</span>
+            <span class="card-arrow" aria-hidden="true">↗</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dates-section" id="termine">
+      <div class="container">
+        <div class="section-heading heading-light">
+          <div>
+            <p class="eyebrow">Kalender</p>
+            <h2>ANSTEHENDE<br>TERMINE</h2>
+          </div>
+          <p class="section-intro">
+            Termine werden hier laufend ergänzt. Änderungen und genauere Infos veröffentlichen wir rechtzeitig.
+          </p>
+        </div>
+
+        <div class="date-list">
+          <article class="date-item">
+            <time datetime="12-23"><span>23</span><small>DEZ</small></time>
+            <div>
+              <p class="date-type">Projekttag</p>
+              <h3>Weihnachtsprojekttag</h3>
+              <p>Gemeinsamer Projekttag der Schule, organisiert mit der SMV und den Arbeitskreisen.</p>
+            </div>
+            <span class="date-tag">SMV</span>
+          </article>
+          <article class="date-item">
+            <time><span>—</span><small>OFFEN</small></time>
+            <div>
+              <p class="date-type">Projekttag</p>
+              <h3>Anti-Rassismus-Tag</h3>
+              <p>Der Termin steht noch nicht endgültig fest. Weitere Informationen folgen.</p>
+            </div>
+            <span class="date-tag">TBD</span>
+          </article>
+          <article class="date-item">
+            <time datetime="07-27"><span>27</span><small>JUL</small></time>
+            <div>
+              <p class="date-type">Projekttag</p>
+              <h3>SMV-Sommerprojekttag</h3>
+              <p>Zum Schuljahresende: Aktionen, Gemeinschaft und ein gemeinsamer SMV-Projekttag.</p>
+            </div>
+            <span class="date-tag">27.07.</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section aks-section" id="aks">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Arbeitskreise</p>
+            <h2>DIE AKs</h2>
+          </div>
+          <p class="section-intro">
+            Unsere Arbeitskreise setzen viele Ideen praktisch um. Jeder AK hat einen eigenen Schwerpunkt
+            und eine Ansprechperson.
+          </p>
+        </div>
+
+        <div class="ak-grid">
+          <article class="ak-card">
+            <div class="ak-photo photo-party"><span>PARTY</span></div>
+            <div class="ak-body"><p class="ak-label">AK 01</p><h3>Party-AK</h3><p>Plant und organisiert Halloween-, Faschings- und Sommerfeiern an der Schule.</p><p class="contact-person">Leitung: <strong>NAME EINFÜGEN</strong></p></div>
+          </article>
+          <article class="ak-card rotated">
+            <div class="ak-photo photo-tech"><span>TECH</span></div>
+            <div class="ak-body"><p class="ak-label">AK 02</p><h3>Technik-AK</h3><p>Kümmert sich um die Technik bei Veranstaltungen und Aktionen der Schule.</p><p class="contact-person">Leitung: <strong>NAME EINFÜGEN</strong></p></div>
+          </article>
+          <article class="ak-card">
+            <div class="ak-photo photo-valentine"><span>♥</span></div>
+            <div class="ak-body"><p class="ak-label">AK 03</p><h3>Valentinstags-AK</h3><p>Organisiert und verteilt kleine Geschenke am Valentinstag.</p><p class="contact-person">Leitung: <strong>NAME EINFÜGEN</strong></p></div>
+          </article>
+          <article class="ak-card">
+            <div class="ak-photo photo-points"><span>PTS</span></div>
+            <div class="ak-body"><p class="ak-label">AK 04</p><h3>Punkte-AK</h3><p>Zählt die Punkte der Klassen bei Mottotagen und hält die Ergebnisse fest.</p><p class="contact-person">Leitung: <strong>NAME EINFÜGEN</strong></p></div>
+          </article>
+          <article class="ak-card rotated">
+            <div class="ak-photo photo-klo"><span>???</span></div>
+            <div class="ak-body"><p class="ak-label">AK 05</p><h3>Klo-AK</h3><p>Der legendäre AK. Aktuell ohne klar definierten Aufgabenbereich – aber mit maximalem Potenzial.</p><p class="contact-person">Leitung: <strong>NAME EINFÜGEN</strong></p></div>
+          </article>
+          <article class="ak-card">
+            <div class="ak-photo photo-sport"><span>SPORT</span></div>
+            <div class="ak-body"><p class="ak-label">AK 06</p><h3>Sport-AK</h3><p>Organisiert sportliche Aktionen, darunter das Faschingsfußballturnier.</p><p class="contact-person">Leitung: <strong>NAME EINFÜGEN</strong></p></div>
+          </article>
+          <article class="ak-card">
+            <div class="ak-photo photo-library"><span>BOOKS</span></div>
+            <div class="ak-body"><p class="ak-label">AK 07</p><h3>Bibliotheks-AK</h3><p>Kümmert sich um alles, was mit der Schulbibliothek zu tun hat.</p><p class="contact-person">Leitung: <strong>NAME EINFÜGEN</strong></p></div>
+          </article>
+          <article class="ak-card rotated">
+            <div class="ak-photo photo-grill"><span>GRILL</span></div>
+            <div class="ak-body"><p class="ak-label">AK 08</p><h3>Grill-AK</h3><p>Übernimmt Grillaktionen und Verpflegung bei SMV-Schulveranstaltungen.</p><p class="contact-person">Leitung: <strong>NAME EINFÜGEN</strong></p></div>
+          </article>
+          <article class="ak-card">
+            <div class="ak-photo photo-chess"><span>♞</span></div>
+            <div class="ak-body"><p class="ak-label">AK 09</p><h3>Schach-AK</h3><p>Richtet regelmäßige schulinterne Schachturniere und Begegnungen mit anderen Schulen aus.</p><p class="contact-person">Leitung: <strong>NAME EINFÜGEN</strong></p></div>
+          </article>
+          <article class="ak-card">
+            <div class="ak-photo photo-smv"><span>SMV</span></div>
+            <div class="ak-body"><p class="ak-label">AK 10</p><h3>SMV-AK</h3><p>Plant Projekttage gemeinsam mit den Schülersprecher*innen und unterstützt deren Umsetzung.</p><p class="contact-person">Leitung: <strong>NAME EINFÜGEN</strong></p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="kontakt">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-info">
+            <p class="eyebrow">Direkter Draht</p>
+            <h2>SPRECHT<br>MIT UNS.</h2>
+            <p class="contact-lead">
+              Ihr habt eine Idee, ein Anliegen oder wollt bei einem Projekt mitmachen?
+              Meldet euch bei uns.
+            </p>
+
+            <div class="contact-details">
+              <div class="detail">
+                <span class="detail-icon" aria-hidden="true">☎</span>
+                <div><small>Telefon</small><a href="tel:+499761000000">TELEFON HIER EINFÜGEN</a></div>
+              </div>
+              <div class="detail">
+                <span class="detail-icon" aria-hidden="true">@</span>
+                <div><small>E-Mail</small><a href="mailto:smv@gymnasium-badkoen.de">smv@gymnasium-badkoen.de</a></div>
+              </div>
+            </div>
+
+            <div class="members-box">
+              <p class="eyebrow">Schülersprecher*innen</p>
+              <ul>
+                <li><span>01</span> NAME EINFÜGEN</li>
+                <li><span>02</span> NAME EINFÜGEN</li>
+                <li><span>03</span> NAME EINFÜGEN</li>
+              </ul>
+            </div>
+
+            <div class="office-hours">
+              <p class="eyebrow">Sprechstunden</p>
+              <p><strong>Tag:</strong> HIER TAG EINTRAGEN<br><strong>Zeit:</strong> HIER ZEIT EINTRAGEN<br><strong>Ort:</strong> HIER ORT EINTRAGEN</p>
+            </div>
+          </div>
+
+          <div class="contact-form-wrap">
+            <div class="form-heading">
+              <p class="eyebrow">Nachricht senden</p>
+              <h3>WAS LIEGT AN?</h3>
+              <p>Pflichtfelder sind mit * gekennzeichnet.</p>
+            </div>
+
+            <div id="contactSuccess" class="form-banner success-banner" style="display: none;" role="status" aria-live="polite">
+              <span>Vielen Dank! Ihre Nachricht wurde erfolgreich gesendet. Wir melden uns in Kürze bei Ihnen.</span>
+            </div>
+
+            <div id="contactError" class="form-banner error-banner" style="display: none;" role="alert">
+              <span id="contactErrorText">Fehler beim Senden. Bitte versuchen Sie es später erneut.</span>
+            </div>
+
+            <form id="contactForm">
+              <div class="field">
+                <label for="name">Name *</label>
+                <input type="text" id="name" name="name" required autocomplete="name" />
+              </div>
+              <div class="field">
+                <label for="email">E-Mail *</label>
+                <input type="email" id="email" name="email" required autocomplete="email" />
+              </div>
+              <div class="field">
+                <label for="message">Nachricht *</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+              </div>
+              <div>
+                <button class="btn btn-primary form-submit" type="submit" id="contactSubmitBtn">
+                  Nachricht senden <span aria-hidden="true">→</span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <span class="footer-badge">SMV</span>
+        <div>
+          <strong>SMV</strong>
+          <p>Gymnasium Bad Königshofen</p>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="https://www.instagram.com/gym.badkoen/" target="_blank" rel="noopener noreferrer" aria-label="Instagram der Schule">
+          <svg aria-hidden="true" viewBox="0 0 24 24" width="19" height="19"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.4" cy="6.6" r="1" fill="currentColor"/></svg>
+          Instagram
+        </a>
+        <a href="datenschutz.html">Datenschutz</a>
+        <a href="impressum.html">Impressum</a>
+      </div>
+      <div class="footer-copy">
+        <span aria-hidden="true">©</span> SMV · Alle Angaben ohne Gewähr
+      </div>
+    </div>
+  </footer>
+
+  <dialog class="project-dialog" id="projectDialog" aria-labelledby="dialogTitle">
+    <div class="dialog-inner">
+      <button class="dialog-close" type="button" aria-label="Projektfenster schließen">×</button>
+      <p class="eyebrow" id="dialogEyebrow">Projekt</p>
+      <h2 id="dialogTitle">Projekt</h2>
+      <p id="dialogText"></p>
+      <div class="dialog-meta">
+        <span id="dialogDate"></span>
+        <span id="dialogResponsible"></span>
+      </div>
+      <div class="dialog-nav">
+        <button type="button" class="dialog-arrow" id="dialogPrev" aria-label="Vorheriges Projekt">←</button>
+        <span id="dialogCounter">1 / 4</span>
+        <button type="button" class="dialog-arrow" id="dialogNext" aria-label="Nächstes Projekt">→</button>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
