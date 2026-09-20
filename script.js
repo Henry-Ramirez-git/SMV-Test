@@ -140,8 +140,7 @@ document.getElementById('contactForm').addEventListener('submit', async function
         };
 
         // 4. E-Mail senden via EmailJS
-        // Ersetze 'YOUR_SERVICE_ID' und 'YOUR_TEMPLATE_ID' mit deinen Daten
-        await emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams);
+        await emailjs.send('service_yoijryh', 'template_97efex7', templateParams);
 
         // Erfolg: Banner anzeigen & Formular leeren
         successBanner.style.display = 'block';
