@@ -87,8 +87,7 @@ dialog?.addEventListener('click', event => {
 // ========================================
 // 1. EMAILJS INITIALISIERUNG
 // ========================================
-// Ersetze 'YOUR_PUBLIC_KEY' mit deinem echten EmailJS Public Key
-emailjs.init('YOUR_PUBLIC_KEY');
+emailjs.init('AgeKHgCc3UNEupU7U');
 
 
 // ========================================
